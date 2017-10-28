@@ -22,6 +22,25 @@ Requires API Level 9. The library uses Camera 1 API on API Level 9-20 and Camera
   - Aspect ratio (app:aspectRatio)
   - Auto-focus (app:autoFocus)
   - Flash (app:flash)
+  
+## Download
+
+Project build.gradle
+```
+repositories {
+    maven {
+        url  "https://dl.bintray.com/kofuk/maven" 
+    }
+}
+```
+
+Module build.gradle
+```
+// Gradle plugin version < 3.0
+compile 'com.chronoscoper.library:cameraview:latest.version@aar'
+// Gradle plugin version >= 3.0
+implementation 'com.chronoscoper.library:cameraview:latest.version@aar'
+```
 
 ## Usage
 
@@ -57,3 +76,6 @@ You can see a complete usage in the demo app.
 ## Contribution
 
 See [CONTRIBUTING.md](/CONTRIBUTING.md).
+
+## License
+Apache License v2.0
