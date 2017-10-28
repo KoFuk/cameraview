@@ -68,7 +68,7 @@ publish {
     groupId = 'com.chronoscoper.library'
     artifactId = 'cameraview'
     publishVersion = android.defaultConfig.versionName
-    licences = ['Apache License Version 2.0']
+    licences = ['Apache-2.0']
     desc = ''
     website = 'https://github.com/KoFuk/cameraview'
 }
